@@ -14,6 +14,12 @@
 		5302EBD31E5DC78800CD1BE8 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 5302EBD11E5DC78800CD1BE8 /* LaunchScreen.storyboard */; };
 		5302EBDE1E5DC78800CD1BE8 /* Surukleme_XIB_TestTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5302EBDD1E5DC78800CD1BE8 /* Surukleme_XIB_TestTests.swift */; };
 		5302EBE91E5DC78800CD1BE8 /* Surukleme_XIB_TestUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5302EBE81E5DC78800CD1BE8 /* Surukleme_XIB_TestUITests.swift */; };
+		5302EBF81E5DC98C00CD1BE8 /* Surukle_XIB.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5302EBF61E5DC98C00CD1BE8 /* Surukle_XIB.swift */; };
+		5302EBF91E5DC98C00CD1BE8 /* Surukle_XIB.xib in Resources */ = {isa = PBXBuildFile; fileRef = 5302EBF71E5DC98C00CD1BE8 /* Surukle_XIB.xib */; };
+		5302EBFB1E5DC9AC00CD1BE8 /* ResimSurukle.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5302EBFA1E5DC9AC00CD1BE8 /* ResimSurukle.swift */; };
+		5302EBFE1E5DCA9D00CD1BE8 /* Sorular_SurukleVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5302EBFD1E5DCA9D00CD1BE8 /* Sorular_SurukleVC.swift */; };
+		5302EC001E5DCB2C00CD1BE8 /* sorular.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5302EBFF1E5DCB2C00CD1BE8 /* sorular.swift */; };
+		53F4E9F61E5F1AE500F3EC44 /* ResimSurukle_Xib.swift in Sources */ = {isa = PBXBuildFile; fileRef = 53F4E9F51E5F1AE500F3EC44 /* ResimSurukle_Xib.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -47,6 +53,12 @@
 		5302EBE41E5DC78800CD1BE8 /* Surukleme_XIB_TestUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = Surukleme_XIB_TestUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		5302EBE81E5DC78800CD1BE8 /* Surukleme_XIB_TestUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Surukleme_XIB_TestUITests.swift; sourceTree = "<group>"; };
 		5302EBEA1E5DC78800CD1BE8 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		5302EBF61E5DC98C00CD1BE8 /* Surukle_XIB.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Surukle_XIB.swift; sourceTree = "<group>"; };
+		5302EBF71E5DC98C00CD1BE8 /* Surukle_XIB.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = Surukle_XIB.xib; sourceTree = "<group>"; };
+		5302EBFA1E5DC9AC00CD1BE8 /* ResimSurukle.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ResimSurukle.swift; sourceTree = "<group>"; };
+		5302EBFD1E5DCA9D00CD1BE8 /* Sorular_SurukleVC.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Sorular_SurukleVC.swift; sourceTree = "<group>"; };
+		5302EBFF1E5DCB2C00CD1BE8 /* sorular.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = sorular.swift; sourceTree = "<group>"; };
+		53F4E9F51E5F1AE500F3EC44 /* ResimSurukle_Xib.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ResimSurukle_Xib.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -97,6 +109,10 @@
 		5302EBC71E5DC78800CD1BE8 /* Surukleme_XIB_Test */ = {
 			isa = PBXGroup;
 			children = (
+				5302EBFD1E5DCA9D00CD1BE8 /* Sorular_SurukleVC.swift */,
+				5302EBFF1E5DCB2C00CD1BE8 /* sorular.swift */,
+				5302EBFA1E5DC9AC00CD1BE8 /* ResimSurukle.swift */,
+				5302EBFC1E5DC9FA00CD1BE8 /* XIB */,
 				5302EBC81E5DC78800CD1BE8 /* AppDelegate.swift */,
 				5302EBCA1E5DC78800CD1BE8 /* ViewController.swift */,
 				5302EBCC1E5DC78800CD1BE8 /* Main.storyboard */,
@@ -123,6 +139,16 @@
 				5302EBEA1E5DC78800CD1BE8 /* Info.plist */,
 			);
 			path = Surukleme_XIB_TestUITests;
+			sourceTree = "<group>";
+		};
+		5302EBFC1E5DC9FA00CD1BE8 /* XIB */ = {
+			isa = PBXGroup;
+			children = (
+				53F4E9F51E5F1AE500F3EC44 /* ResimSurukle_Xib.swift */,
+				5302EBF61E5DC98C00CD1BE8 /* Surukle_XIB.swift */,
+				5302EBF71E5DC98C00CD1BE8 /* Surukle_XIB.xib */,
+			);
+			name = XIB;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -236,6 +262,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				5302EBD31E5DC78800CD1BE8 /* LaunchScreen.storyboard in Resources */,
+				5302EBF91E5DC98C00CD1BE8 /* Surukle_XIB.xib in Resources */,
 				5302EBD01E5DC78800CD1BE8 /* Assets.xcassets in Resources */,
 				5302EBCE1E5DC78800CD1BE8 /* Main.storyboard in Resources */,
 			);
@@ -262,6 +289,11 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				5302EBFB1E5DC9AC00CD1BE8 /* ResimSurukle.swift in Sources */,
+				53F4E9F61E5F1AE500F3EC44 /* ResimSurukle_Xib.swift in Sources */,
+				5302EBFE1E5DCA9D00CD1BE8 /* Sorular_SurukleVC.swift in Sources */,
+				5302EC001E5DCB2C00CD1BE8 /* sorular.swift in Sources */,
+				5302EBF81E5DC98C00CD1BE8 /* Surukle_XIB.swift in Sources */,
 				5302EBCB1E5DC78800CD1BE8 /* ViewController.swift in Sources */,
 				5302EBC91E5DC78800CD1BE8 /* AppDelegate.swift in Sources */,
 			);
@@ -415,6 +447,7 @@
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				DEVELOPMENT_TEAM = H2N6ED5JY4;
 				INFOPLIST_FILE = Surukleme_XIB_Test/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = "com.fatihdinc.Surukleme-XIB-Test";
 				PRODUCT_NAME = "$(TARGET_NAME)";
@@ -428,6 +461,7 @@
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				DEVELOPMENT_TEAM = H2N6ED5JY4;
 				INFOPLIST_FILE = Surukleme_XIB_Test/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = "com.fatihdinc.Surukleme-XIB-Test";
 				PRODUCT_NAME = "$(TARGET_NAME)";
@@ -512,6 +546,7 @@
 				5302EBEF1E5DC78800CD1BE8 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		5302EBF01E5DC78800CD1BE8 /* Build configuration list for PBXNativeTarget "Surukleme_XIB_TestTests" */ = {
 			isa = XCConfigurationList;
@@ -520,6 +555,7 @@
 				5302EBF21E5DC78800CD1BE8 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		5302EBF31E5DC78800CD1BE8 /* Build configuration list for PBXNativeTarget "Surukleme_XIB_TestUITests" */ = {
 			isa = XCConfigurationList;
@@ -528,6 +564,7 @@
 				5302EBF51E5DC78800CD1BE8 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
