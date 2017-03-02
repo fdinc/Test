@@ -282,6 +282,6 @@
         </scene>
     </scenes>
     <resources>
-        <image name="DogrulaBtn" width="16" height="16"/>
+        <image name="DogrulaBtn" width="156" height="51"/>
     </resources>
 </document>

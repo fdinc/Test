@@ -365,10 +365,7 @@ import UIKit
     var test_silme : ViewController!
     
     
-    
     @IBAction func btn_Onayla(_ sender: Any) {
-        
-        
         sorular_Surukle ()      //Soruları Getirme
         
         if sor1.cevap_surukle_Sekil! == img_cevaps {
@@ -376,7 +373,7 @@ import UIKit
         }else{
             print("Yanlış")
         }
-        
+
     }
     
     

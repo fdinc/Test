@@ -5,6 +5,7 @@
     </device>
     <dependencies>
         <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="11757"/>
+        <capability name="Aspect ratio constraints" minToolsVersion="5.1"/>
         <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
     </dependencies>
     <objects>
@@ -16,7 +17,7 @@
                 <outlet property="img_3" destination="mTQ-Wi-tSo" id="GQM-zm-sjn"/>
                 <outlet property="img_4" destination="x9q-qw-mhd" id="hVt-bx-1oU"/>
                 <outlet property="img_5" destination="ft5-ym-FYN" id="O2Q-nF-rw1"/>
-                <outlet property="lbl_Onayla" destination="vYt-0p-DSX" id="ym5-zZ-6wa"/>
+                <outlet property="lbl_Onayla" destination="5Vo-wl-dm0" id="ocb-YH-q7v"/>
                 <outlet property="scroll_Cevap" destination="UQd-W6-eeE" id="62g-0y-ppw"/>
                 <outletCollection property="img_Secenekler" destination="k7q-fN-dMs" collectionClass="NSMutableArray" id="Hfb-WC-faQ"/>
                 <outletCollection property="img_Secenekler" destination="tUR-ac-Pvv" collectionClass="NSMutableArray" id="qet-vE-r9d"/>
@@ -86,13 +87,15 @@
                         </imageView>
                     </subviews>
                 </stackView>
-                <button opaque="NO" contentMode="scaleToFill" enabled="NO" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="vYt-0p-DSX">
-                    <rect key="frame" x="0.0" y="615" width="291" height="44"/>
-                    <color key="backgroundColor" red="1" green="0.8696233391" blue="0.40100417319999998" alpha="1" colorSpace="calibratedRGB"/>
-                    <fontDescription key="fontDescription" type="system" pointSize="20"/>
-                    <state key="normal" title="Button"/>
+                <button opaque="NO" contentMode="scaleToFill" enabled="NO" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="5Vo-wl-dm0">
+                    <rect key="frame" x="68" y="615" width="156" height="51"/>
+                    <constraints>
+                        <constraint firstAttribute="height" constant="51" id="RRY-VP-SIg"/>
+                        <constraint firstAttribute="width" constant="156" id="s9r-DP-TIp"/>
+                    </constraints>
+                    <state key="normal" image="DogrulaBtn"/>
                     <connections>
-                        <action selector="btn_Onayla:" destination="-1" eventType="touchUpInside" id="Yem-zE-ezV"/>
+                        <action selector="btn_Onayla:" destination="-1" eventType="touchUpInside" id="71Q-Z9-ZsZ"/>
                     </connections>
                 </button>
             </subviews>
@@ -100,17 +103,19 @@
             <constraints>
                 <constraint firstItem="1cF-Sw-oFB" firstAttribute="top" secondItem="iN0-l3-epB" secondAttribute="top" constant="20" id="40u-HX-GC2"/>
                 <constraint firstItem="1cF-Sw-oFB" firstAttribute="leading" secondItem="UQd-W6-eeE" secondAttribute="trailing" constant="8" id="4lp-Gc-SvF"/>
+                <constraint firstItem="5Vo-wl-dm0" firstAttribute="top" secondItem="UQd-W6-eeE" secondAttribute="bottom" constant="8" id="4qv-7I-Fyz"/>
                 <constraint firstItem="UQd-W6-eeE" firstAttribute="top" secondItem="iN0-l3-epB" secondAttribute="top" constant="20" id="AbI-gZ-97p"/>
-                <constraint firstItem="vYt-0p-DSX" firstAttribute="trailing" secondItem="UQd-W6-eeE" secondAttribute="trailing" id="Hgt-YR-YnD"/>
-                <constraint firstItem="vYt-0p-DSX" firstAttribute="leading" secondItem="iN0-l3-epB" secondAttribute="leading" id="WEa-Xt-iiT"/>
-                <constraint firstItem="vYt-0p-DSX" firstAttribute="top" secondItem="UQd-W6-eeE" secondAttribute="bottom" constant="8" id="jeI-NJ-eeL"/>
+                <constraint firstItem="5Vo-wl-dm0" firstAttribute="width" secondItem="5Vo-wl-dm0" secondAttribute="height" multiplier="52:17" id="UkY-or-Uj0"/>
                 <constraint firstAttribute="trailing" secondItem="1cF-Sw-oFB" secondAttribute="trailing" constant="16" id="lKd-sH-vF4"/>
-                <constraint firstAttribute="bottom" secondItem="vYt-0p-DSX" secondAttribute="bottom" constant="8" id="uDC-fZ-4Ag"/>
                 <constraint firstAttribute="bottom" secondItem="UQd-W6-eeE" secondAttribute="bottom" constant="60" id="ui5-XV-oA8"/>
                 <constraint firstItem="UQd-W6-eeE" firstAttribute="leading" secondItem="iN0-l3-epB" secondAttribute="leading" id="vSM-73-Pf7"/>
+                <constraint firstItem="5Vo-wl-dm0" firstAttribute="centerX" secondItem="UQd-W6-eeE" secondAttribute="centerX" id="x7h-UJ-g86"/>
             </constraints>
             <nil key="simulatedStatusBarMetrics"/>
             <point key="canvasLocation" x="33.5" y="53.5"/>
         </view>
     </objects>
+    <resources>
+        <image name="DogrulaBtn" width="156" height="51"/>
+    </resources>
 </document>
